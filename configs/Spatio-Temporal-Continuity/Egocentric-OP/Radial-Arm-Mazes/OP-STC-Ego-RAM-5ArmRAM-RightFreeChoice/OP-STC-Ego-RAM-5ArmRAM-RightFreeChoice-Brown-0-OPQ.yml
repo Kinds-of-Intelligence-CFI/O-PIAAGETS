@@ -1,0 +1,127 @@
+!ArenaConfig
+arenas:
+  0: !Arena
+    pass_mark: 0
+    t: 350
+    items:
+    - !Item
+      name: Agent
+      positions:
+      - !Vector3 {x: 20, y: 8, z: 7}
+      rotations: [0]
+    - !Item
+      name: GoodGoal
+      positions:
+      - !Vector3 {x: 34.5, y: 1, z: 30}
+      sizes:
+      - !Vector3 {x: 1, y: 1, z: 1}
+    - !Item
+      name: Wall
+      positions:
+      - !Vector3 {x: 20, y: 0, z: 20} #centre base.
+      - !Vector3 {x: 20, y: 0, z: 5.25} #bottom arm end.
+      - !Vector3 {x: 20, y: 0, z: 11} #bottom arm.
+      - !Vector3 {x: 29, y: 0, z: 22.5} #upper right arm.
+      - !Vector3 {x: 34.75, y: 0, z: 25.75} #upper right arm end.
+      - !Vector3 {x: 29, y: 0, z: 17.5} #lower right arm.
+      - !Vector3 {x: 34.75, y: 0, z: 14.25} #lower right arm end.
+      - !Vector3 {x: 11, y: 0, z: 22.5} # upper left arm.
+      - !Vector3 {x: 5.25, y: 0, z: 25.75} #upper left arm end.
+      - !Vector3 {x: 11, y: 0, z: 17.5} #lower left arm.
+      - !Vector3 {x: 5.25, y: 0, z: 14.25} #lower left arm end.
+      - !Vector3 {x: 28.75, y: 0, z: 24.5} #upper obstruction on upper right arm.
+      - !Vector3 {x: 28.75, y: 0, z: 20.75} #lower obstruction on upper right arm.
+      - !Vector3 {x: 28, y: 0, z: 27.5} #end obstruction on upper right arm.
+      - !Vector3 {x: 28.75, y: 0, z: 19.27} #upper obstruction on lower right arm.
+      - !Vector3 {x: 28.75, y: 0, z: 15.5} #lower obstruction on lower right arm.
+      - !Vector3 {x: 28, y: 0, z: 12.5} #end obstruction on lower right arm
+      - !Vector3 {x: 11.247, y: 0, z: 24.5} #upper obstruction on upper left arm.
+      - !Vector3 {x: 11.247, y: 0, z: 20.75} #lower obstruction on upper left arm.
+      - !Vector3 {x: 12, y: 0, z: 27.5} #end obstruction on upper left arm
+      - !Vector3 {x: 11.247, y: 0, z: 19.27} #upper obstruction on lower left arm.
+      - !Vector3 {x: 11.247, y: 0, z: 15.5} #lower obstruction on lower left arm.
+      - !Vector3 {x: 12, y: 0, z: 12.5} #end obstructon on lower left arm.
+      rotations: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+      sizes:
+      - !Vector3 {x: 9, y: .2, z: 9} #centre base.
+      - !Vector3 {x: 9, y: 8, z: 2.5} #bottom arm end.
+      - !Vector3 {x: 2.5, y: .2, z: 9} #bottom arm.
+      - !Vector3 {x: 9, y: .2, z: 2.5} #upper right arm.
+      - !Vector3 {x: 2.5, y: .2, z: 9} #upper right arm end.
+      - !Vector3 {x: 9, y: .2, z: 2.5} #upper left arm.
+      - !Vector3 {x: 2.5, y: .2, z: 9} #upper left arm end.
+      - !Vector3 {x: 9, y: .2, z: 2.5} #lower right arm.
+      - !Vector3 {x: 2.5, y: .2, z: 9} #lower right arm end.
+      - !Vector3 {x: 9, y: .2, z: 2.5} #lower left arm.
+      - !Vector3 {x: 2.5, y: .2, z: 9} #lower left arm end.
+      - !Vector3 {x: 8, y: 1.5, z: 1} #upper obstruction to upper right arm.
+      - !Vector3 {x: 8, y: 1.5, z: 1} #lower obstruction to upper right arm.
+      - !Vector3 {x: 1, y: 1.5, z: 5} #end obstruction on upper right arm.
+      - !Vector3 {x: 8, y: 1.5, z: 1} #upper obstruction to lower right arm.
+      - !Vector3 {x: 8, y: 1.5, z: 1} #lower obstruction to lower right arm.
+      - !Vector3 {x: 1, y: 1.5, z: 5} #end obstruction on lower right arm.
+      - !Vector3 {x: 8, y: 1.5, z: 1} #upper obstruction to upper left arm.
+      - !Vector3 {x: 8, y: 1.5, z: 1} #lower obstruction to upper left arm.
+      - !Vector3 {x: 1, y: 1.5, z: 5} #end obstruction on upper left arm.
+      - !Vector3 {x: 8, y: 1.5, z: 1} #upper obstruction to lower left arm.
+      - !Vector3 {x: 8, y: 1.5, z: 1} #lower obstruction to lower left arm.
+      - !Vector3 {x: 1, y: 1.5, z: 5} #end obstruction on lower left arm.
+      colors:
+      - !RGB {r: 153, g: 153, b: 153}
+      - !RGB {r: 153, g: 153, b: 153}
+      - !RGB {r: 153, g: 153, b: 153}
+      - !RGB {r: 153, g: 153, b: 153}
+      - !RGB {r: 153, g: 153, b: 153}
+      - !RGB {r: 153, g: 153, b: 153}
+      - !RGB {r: 153, g: 153, b: 153}
+      - !RGB {r: 153, g: 153, b: 153}
+      - !RGB {r: 153, g: 153, b: 153}
+      - !RGB {r: 153, g: 153, b: 153}
+      - !RGB {r: 153, g: 153, b: 153}
+      - !RGB {r: 102, g: 51, b: 1} #color parameter
+      - !RGB {r: 102, g: 51, b: 1} #color parameter
+      - !RGB {r: 102, g: 51, b: 1} #color parameter
+      - !RGB {r: 102, g: 51, b: 1} #color parameter
+      - !RGB {r: 102, g: 51, b: 1} #color parameter
+      - !RGB {r: 102, g: 51, b: 1} #color parameter
+      - !RGB {r: 102, g: 51, b: 1} #color parameter
+      - !RGB {r: 102, g: 51, b: 1} #color parameter
+      - !RGB {r: 102, g: 51, b: 1} #color parameter
+      - !RGB {r: 102, g: 51, b: 1} #color parameter
+      - !RGB {r: 102, g: 51, b: 1} #color parameter
+      - !RGB {r: 102, g: 51, b: 1} #color parameter
+    - !Item
+      name: WallTransparent
+      positions:
+      - !Vector3 {x: 18, y: 0, z: 11} #left obstruction on bottom right arm.
+      - !Vector3 {x: 22, y: 0, z: 11} #right obstruction on bottom right arm.
+      - !Vector3 {x: 23.5, y: 0, z: 7} #right front wall.
+      - !Vector3 {x: 16.5, y: 0, z: 7} #left front wall.
+      - !Vector3 {x: 25, y: 0, z: 5.25} #right side wall.
+      - !Vector3 {x: 15, y: 0, z: 5.25} #left side wall.
+      - !Vector3 {x: 20, y: 0, z: 3.3} #back wall.
+      rotations: [0,0,0,0,0,0,0]
+      sizes:
+      - !Vector3 {x: 1, y: 9, z: 8} #left obstruction on bottom right arm.
+      - !Vector3 {x: 1, y: 9, z: 8} #right obstruction on bottom right arm.
+      - !Vector3 {x: 1.5, y: 9, z: 1} #right front wall.
+      - !Vector3 {x: 1.5, y: 9, z: 1} #left front wall.
+      - !Vector3 {x: 1, y: 9, z: 2.5} #right side wall.
+      - !Vector3 {x: 1, y: 9, z: 2.5} #left side wall.
+      - !Vector3 {x: 11, y: 9, z: 1} #back wall.
+    - !Item
+      name: DeathZone
+      positions:
+      - !Vector3 {x: 20, y: 0, z: 20}
+      rotations: [0]
+      sizes:
+      - !Vector3 {x: 40, y: 0, z: 40}
+    - !Item
+      name: Ramp
+      positions:
+      - !Vector3 {x: 20, y: .2, z: 12} #observation ramp.
+      rotations: [0]
+      sizes:
+      - !Vector3 {x: 2, y: 7.8, z: 11} #observation ramp.
+      colors:
+      - !RGB {r: 255, g: 0, b: 255}

@@ -1,0 +1,48 @@
+!ArenaConfig
+arenas:
+  0: !Arena
+    pass_mark: 0
+    t: 500
+    items:
+    - !Item
+      name: WallTransparent
+      positions:
+      - !Vector3 {x: 20, y: 0, z: 20}
+      - !Vector3 {x: 17, y: 0, z: 12.78}
+      - !Vector3 {x: 23, y: 0, z: 27.22}
+      rotations: [70, 110, 110]
+      sizes:
+      - !Vector3 {x: 27.5, y: 10, z: 1}
+      - !Vector3 {x: 13, y: 10, z: 1}
+      - !Vector3 {x: 13, y: 10, z: 1}
+    - !Item
+      name: Wall
+      positions:
+      - !Vector3 {x: 16.4, y: 0, z: 12.78}
+      - !Vector3 {x: 23.6, y: 0, z: 27.22}
+      - !Vector3 {x: 23.3, y: 0, z: 12.78}
+      - !Vector3 {x: 16.7, y: 0, z: 27.22}
+      rotations: [110, 110, 70, 70]
+      sizes:
+      - !Vector3 {x: 4, y: 10, z: 0.001}
+      - !Vector3 {x: 4, y: 10, z: 0.001}
+      - !Vector3 {x: 4, y: 10, z: 0.001}
+      - !Vector3 {x: 4, y: 10, z: 0.001}
+      colors:
+      - !RGB {r: 153, g: 153, b: 153} #color parameter
+      - !RGB {r: 153, g: 153, b: 153} #color parameter
+      - !RGB {r: 153, g: 153, b: 153} #color parameter
+      - !RGB {r: 153, g: 153, b: 153} #color parameter
+    - !Item
+      name: GoodGoal
+      positions:
+      - !Vector3 {x: 20, y: 0, z: 12.6}
+      sizes:
+      - !Vector3 {x: 1.5, y: 1.5, z: 1.5} #Goal Size
+    - !Item
+      name: Agent
+      positions:
+      - !Vector3 {x: 22, y: 0, z: 20}
+      rotations: [90] #Agent Rotation Parameter
+      skins:
+      - "hedgehog"

@@ -1,0 +1,104 @@
+!ArenaConfig
+arenas:
+  0: !Arena
+    pass_mark: 0
+    t: 350
+    items:
+    - !Item
+      name: Agent
+      positions:
+      - !Vector3 {x: 20, y: 3, z: 5}
+      rotations: [0]
+    - !Item
+      name: GoodGoal
+      positions:
+      - !Vector3 {x: 34.5, y: 1, z: 17}
+      sizes:
+      - !Vector3 {x: 1, y: 1, z: 1}
+    - !Item
+      name: Wall
+      positions:
+      - !Vector3 {x: 20, y: 0, z: 20} #centre base.
+      - !Vector3 {x: 20, y: 0, z: 5.25} #bottom arm end.
+      - !Vector3 {x: 20, y: 0, z: 11} #bottom arm.
+      - !Vector3 {x: 29, y: 0, z: 20} #right arm.
+      - !Vector3 {x: 34.75, y: 0, z: 18.75} #right arm end.
+      - !Vector3 {x: 11, y: 0, z: 20} #left arm.
+      - !Vector3 {x: 5.25, y: 0, z: 18.75} #left arm end.
+      - !Vector3 {x: 18.25, y: 0, z: 11} #left obstruction on bottom arm.
+      - !Vector3 {x: 21.75, y: 0, z: 11} #right obstruction on bottom arm.
+      - !Vector3 {x: 29, y: 0, z: 21.8} #upper obstruction on path to right arm.
+      - !Vector3 {x: 29, y: 0, z: 18.2} #lower obstruction on path to right arm.
+      - !Vector3 {x: 11, y: 0, z: 21.8} #upper obstruction on path to left arm.
+      - !Vector3 {x: 11, y: 0, z: 18.2} #lower obstruction on path to left arm.
+      - !Vector3 {x: 32, y: 0, z: 17} #right obstruction to stop goal being visible from centre
+      - !Vector3 {x: 8, y: 0, z: 17} #left obstruction to stop goal being visible from centre
+      rotations: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+      sizes:
+      - !Vector3 {x: 9, y: .2, z: 9} #centre base.
+      - !Vector3 {x: 5, y: 2, z: 2.5} #botom arm end.
+      - !Vector3 {x: 2.5, y: .2, z: 9} #bottom arm.
+      - !Vector3 {x: 9, y: .2, z: 2.5} #right arm.
+      - !Vector3 {x: 2.5, y: .2, z: 5} #right arm end.
+      - !Vector3 {x: 9, y: .2, z: 2.5} #left arm.
+      - !Vector3 {x: 2.5, y: .2, z: 5} #left arm end.
+      - !Vector3 {x: 1, y: 2, z: 9} #left obstruction on bottom arm.
+      - !Vector3 {x: 1, y: 2, z: 9} #right obstruction on bottom arm.
+      - !Vector3 {x: 9, y: 2, z: 1} #upper obstrution on right arm.
+      - !Vector3 {x: 9, y: 2, z: 1} #lower obstruction on right arm.
+      - !Vector3 {x: 9, y: 2, z: 1} #upper obstruction on left arm.
+      - !Vector3 {x: 9, y: 2, z: 1} #lower obstruction on left arm.
+      - !Vector3 {x: 0.5, y: 2, z: 1.4} #right obstruction to stop goal being visible from centre
+      - !Vector3 {x: 0.5, y: 2, z: 1.4} #left obstruction to stop goal being visible from centre
+      colors:
+      - !RGB {r: 153, g: 153, b: 153}
+      - !RGB {r: 153, g: 153, b: 153}
+      - !RGB {r: 153, g: 153, b: 153}
+      - !RGB {r: 153, g: 153, b: 153}
+      - !RGB {r: 153, g: 153, b: 153}
+      - !RGB {r: 153, g: 153, b: 153}
+      - !RGB {r: 153, g: 153, b: 153}
+      - !RGB {r: 1, g: 1, b: 153} #color parameter
+      - !RGB {r: 1, g: 1, b: 153} #color parameter
+      - !RGB {r: 1, g: 1, b: 153} #color parameter
+      - !RGB {r: 1, g: 1, b: 153} #color parameter
+      - !RGB {r: 1, g: 1, b: 153} #color parameter
+      - !RGB {r: 1, g: 1, b: 153} #color parameter
+      - !RGB {r: 1, g: 1, b: 153} #color parameter
+      - !RGB {r: 1, g: 1, b: 153} #color parameter
+    - !Item
+      name: WallTransparent
+      positions:
+      - !Vector3 {x: 17, y: 0, z: 6.7}
+      - !Vector3 {x: 23, y: 0, z: 6.7}
+      - !Vector3 {x: 20, y: 0, z: 3.4}
+      rotations: [0,0,0]
+      sizes:
+      - !Vector3 {x: 1, y: 3, z: 5.5}
+      - !Vector3 {x: 1, y: 3, z: 5.5}
+      - !Vector3 {x: 7.25, y: 3, z: 1}
+    - !Item
+      name: DeathZone
+      positions:
+      - !Vector3 {x: 20, y: 0, z: 20}
+      rotations: [0]
+      sizes:
+      - !Vector3 {x: 40, y: 0, z: 40}
+    - !Item
+      name: Ramp
+      positions:
+      - !Vector3 {x: 20, y: .2, z: 15} #Ramp on bottom arm.
+      - !Vector3 {x: 15, y: .2, z: 20} #Ramp on right arm.
+      - !Vector3 {x: 25, y: .2, z: 20} #Ramp on left arm.
+      - !Vector3 {x: 20, y: .2, z: 7.5} #Ramp leading to bottom arm.
+      rotations: [180, 90, 270, 0]
+      sizes:
+      - !Vector3 {x: 2.5, y: .5, z: .1} #Ramp on bottom arm.
+      - !Vector3 {x: 2.5, y: .5, z: .1} #Ramp on right arm.
+      - !Vector3 {x: 2.5, y: .5, z: .1} #Ramp on left arm.
+      - !Vector3 {x: 2.5, y: 1.8, z: 2} #Ramp leading to bottom arm.
+      colors:
+      - !RGB {r: 255, g: 0, b: 255}
+      - !RGB {r: 255, g: 0, b: 255}
+      - !RGB {r: 255, g: 0, b: 255}
+      - !RGB {r: 255, g: 0, b: 255}

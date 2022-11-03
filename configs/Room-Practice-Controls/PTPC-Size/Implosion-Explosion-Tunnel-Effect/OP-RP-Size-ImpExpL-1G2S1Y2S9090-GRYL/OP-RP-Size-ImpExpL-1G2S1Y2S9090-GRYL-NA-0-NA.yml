@@ -1,0 +1,62 @@
+!ArenaConfig
+arenas:
+  -1: !Arena
+    pass_mark: 3 #powershelled
+    t: 500
+    items:
+      - !Item
+        name: Agent
+        positions:
+        - !Vector3 {x: 20, y: 3, z: 3.5}
+        rotations: [0]
+      - !Item
+        name: Wall
+        positions:
+        - !Vector3 {x: 20, y: 0, z: 2.5}
+        sizes:
+        - !Vector3 {x: 10, y: 2, z: 5}
+        colors:
+        - !RGB {r: 0, g: 0, b: 255}
+        rotations: [0]
+      - !Item #DeathZone
+        name: DeathZone #DeathZone
+        positions: #DeathZone
+        - !Vector3 {x: 25, y: 0, z: 20} #DeathZone 1
+        - !Vector3 {x: 17, y: 0, z: 20} #DeathZone 2
+        rotations: [0,0] #DeathZone
+        sizes: #DeathZone
+        - !Vector3 {x: 1, y: 0, z: 40} #DeathZone 1
+        - !Vector3 {x: 5, y: 0, z: 40} #DeathZone 2
+      - !Item #Ramp
+        name: Ramp #Ramp
+        positions: #Ramp
+        - !Vector3 {x: 25, y: 0, z: 17} #Ramp 1
+        - !Vector3 {x: 17, y: 0, z: 17} #Ramp 2
+        sizes: #Ramp
+        - !Vector3 {x: 2, y: 0.5, z: 2} #Ramp 1
+        - !Vector3 {x: 2, y: 1, z: 6.5} #Ramp 2
+        colors: #Ramp
+        - !RGB {r: 255, g: 0, b: 255} #Ramp 1
+        - !RGB {r: 255, g: 0, b: 255} #Ramp 2
+        rotations: [90, 90] #Ramp
+      - !Item # Goal 1
+        name: GoodGoal # Goal 1
+        positions: # Goal 1
+        - !Vector3 {x: 38.5, y: 0, z: 28} # Goal 1
+        rotations: [270] # Goal 1
+        sizes: # Goal 1
+        - !Vector3 {x: 2, y: 2, z: 2} # Goal 1
+      - !Item # Goal 2
+        name: GoodGoalMulti # Goal 2
+        positions: # Goal 2
+        - !Vector3 {x: 1.5, y: 0, z: 28} # Goal 2
+        sizes: # Goal 2
+        - !Vector3 {x: 2, y: 2, z: 2} # Goal 2
+        rotations: [270] # Goal 2
+#      - !Item # Goal 3
+#        name: GoodGoalMulti # Goal 3
+#        positions: # Goal 3
+#        - !Vector3 {x: 38.5, y: 27, z: 28} # Goal 3
+#        sizes: # Goal 3
+#        - !Vector3 {x: 2, y: 2, z: 2} # Goal 3
+#        rotations: [270] # Goal 3

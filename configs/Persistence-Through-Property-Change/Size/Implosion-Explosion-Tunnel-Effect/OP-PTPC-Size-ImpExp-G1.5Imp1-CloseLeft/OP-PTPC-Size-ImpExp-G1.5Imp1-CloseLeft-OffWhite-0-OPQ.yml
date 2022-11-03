@@ -1,0 +1,74 @@
+!ArenaConfig
+arenas:
+  -1: !Arena
+    pass_mark: 2.5 #pass mark
+    t: 750 #time limit
+    items:
+      - !Item
+        name: Agent
+        positions:
+        - !Vector3 {x: 21, y: 3, z: 9} #agent position
+        rotations: [0]
+        frozenAgentDelays: [10]
+      - !Item #walls
+        name: Wall #walls
+        positions: #walls
+        - !Vector3 {x: 20, y: 0, z: 5} #walls
+        - !Vector3 {x: 16.75, y: 0, z: 20} #walls
+        - !Vector3 {x: 16.75, y: 10, z: 20} #walls
+        - !Vector3 {x: 16.75, y: 20, z: 20} #walls
+        - !Vector3 {x: 16.49, y: 0, z: 23} #walls
+        sizes: #walls
+        - !Vector3 {x: 10, y: 2, z: 10} #walls
+        - !Vector3 {x: 8, y: 10, z: 2} #walls
+        - !Vector3 {x: 8, y: 10, z: 2} #walls
+        - !Vector3 {x: 8, y: 10, z: 2} #walls
+        - !Vector3 {x: 0.02, y: 2, z: 4} #walls
+        colors: #walls
+        - !RGB {r: 0, g: 0, b: 255} #walls
+        - !RGB {r: 248, g: 253, b: 212} #walls
+        - !RGB {r: 248, g: 253, b: 212} #walls
+        - !RGB {r: 248, g: 253, b: 212} #walls
+        - !RGB {r: 248, g: 253, b: 212} #walls
+        rotations: [0,0,0,0,0] #walls
+      - !Item #deathzone
+        name: DeathZone #deathzone
+        positions: #deathzone
+        - !Vector3 {x: 20, y: 0, z: 20} #deathzone
+        rotations: [0] #deathzone
+        sizes: #deathzone
+        - !Vector3 {x: 2, y: 0, z: 40} #deathzone
+      - !Item #ramps
+        name: Ramp #ramps
+        positions: #ramps
+        - !Vector3 {x: 20, y: 0, z: 17} #ramps
+        - !Vector3 {x: 13.5, y: 0, z: 23} #ramps
+        - !Vector3 {x: 18.75, y: 0, z: 23} #ramps
+        sizes:
+        - !Vector3 {x: 2, y: 1, z: 4} #ramps
+        - !Vector3 {x: 2, y: 0.6, z: 1} #ramps
+        - !Vector3 {x: 2, y: 0.5, z: 4} #ramps
+        colors:
+        - !RGB {r: 255, g: 0, b: 255} #ramps
+        - !RGB {r: 255, g: 0, b: 255} #ramps
+        - !RGB {r: 255, g: 0, b: 255} #ramps
+        rotations: [270, 270, 90] #ramps
+      - !Item #initial goodgoal pre-implosion
+        name: GoodGoalMultiBounce #initial goodgoal pre-implosion
+        positions: #initial goodgoal pre-implosion
+        - !Vector3 {x: 2, y: 0, z: 23} #initial goodgoal pre-implosion
+        rotations: [90] #initial goodgoal pre-implosion
+        sizes: #initial goodgoal pre-implosion
+        - !Vector3 {x: 1.5, y: 1.5, z: 1.5} #initial goodgoal pre-implosion
+      - !Item #Extra GoodGoal
+        name: GoodGoal #Extra GoodGoal
+        positions: #Extra GoodGoal
+        - !Vector3 {x: 38, y: 0, z: 20} #Extra GoodGoal
+        sizes: #Extra GoodGoal
+        - !Vector3 {x: 1, y: 1, z: 1} #Extra GoodGoal
+      - !Item #implosion GoodGoalMulti
+        name: GoodGoalMulti #implosion GoodGoalMulti
+        positions: #implosion GoodGoalMulti
+        - !Vector3 {x: 18.5, y: 18, z: 23} #implosion GoodGoalMulti
+        sizes: #implosion GoodGoalMulti
+        - !Vector3 {x: 1, y: 1, z: 1} #implosion GoodGoalMulti

@@ -1,0 +1,44 @@
+!ArenaConfig
+arenas:
+  0: !Arena
+    pass_mark: 0 # pass mark
+    t: 70 # time limit
+    items:
+    - !Item
+      name: Agent
+      positions:
+      - !Vector3 {x: 20, y: 0, z: 2} # agent position
+      rotations: [0] # agent rotation
+      frozenAgentDelays: [4]
+    - !Item
+      name: Wall
+      positions:
+      - !Vector3 {x: 7.5, y: 0, z: 35} # left wall position
+      - !Vector3 {x: 32.5, y: 0, z: 35} # right wall position
+      rotations: [0, 0] # wall rotations
+      colors:
+      - !RGB {r: 1, g: 100, b: 1} # left wall color
+      - !RGB {r: 1, g: 100, b: 1} # right wall color
+      sizes:
+      - !Vector3 {x: 15, y: 0.75, z: 1} # left wall size
+      - !Vector3 {x: 15, y: 0.75, z: 1} # right wall size
+    - !Item
+      name: Ramp
+      positions:
+      - !Vector3 {x: 6.5, y: 0, z: 37.75} # left ramp position
+      - !Vector3 {x: 33.5, y: 0, z: 37.75} # right ramp position
+      rotations: [90,270] #ramp rotations
+      sizes:
+      - !Vector3 {x: 4.5, y: 0.75, z: 6} # left ramp size
+      - !Vector3 {x: 4.5, y: 0.75, z: 6} # right ramp size
+      colors:
+      - !RGB {r: 255, g: 0, b: 255} # left ramp color
+      - !RGB {r: 255, g: 0, b: 255} # right ramp color
+    - !Item
+      name: GoodGoalBounce
+      positions:
+      - !Vector3 {x: 20, y: 0, z: 38} # GoodGoalBounce position
+      rotations: [90] # GoodGoalBounce rotation
+      sizes:
+      - !Vector3 {x: 2, y: 2, z: 2} # GoodGoalBounce size
+

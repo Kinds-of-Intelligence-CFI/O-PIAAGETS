@@ -1,0 +1,57 @@
+!ArenaConfig
+arenas:
+  -1: !Arena
+    pass_mark: 5
+    t: 500
+    items:
+      - !Item
+        name: Wall
+        positions:
+        - !Vector3 {x: 20, y: 0, z: 5}
+        sizes:
+        - !Vector3 {x: 10, y: 2, z: 10}
+        colors:
+        - !RGB {r: 0, g: 0, b: 255}
+        rotations: [0]
+      - !Item
+        name: Agent
+        positions:
+        - !Vector3 {x: 20, y: 3, z: 9}
+        rotations: [0]
+      - !Item
+        name: DeathZone
+        positions:
+        - !Vector3 {x: 20, y: 0, z: 20}
+        rotations: [0]
+        sizes:
+        - !Vector3 {x: 7, y: 0, z: 40}
+      - !Item #ramp
+        name: Ramp #ramp
+        positions: #ramp
+        - !Vector3 {x: 20, y: 0, z: 15} #ramp
+        sizes: #ramp
+        - !Vector3 {x: 2, y: 1, z: 10} #ramp
+        colors: #ramp
+        - !RGB {r: 255, g: 0, b: 255} #ramp
+        rotations: [270] #ramp
+      - !Item #Powershelled GoodGoalMultiBounce 1
+        name: GoodGoalMultiBounce #Powershelled GoodGoalMultiBounce 1
+        positions: #Powershelled GoodGoalMultiBounce 1
+        - !Vector3 {x: 38.5, y: 0, z: 25} #Powershelled GoodGoalMultiBounce 1
+        rotations: [270] #Powershelled GoodGoalMultiBounce 1
+        sizes: #Powershelled GoodGoalMultiBounce 1
+        - !Vector3 {x: 2, y: 2, z: 2} #Goal Size #GoodGoalBounce Size
+      - !Item #Powershelled GoodGoal 1
+        name: GoodGoalBounce #Powershelled GoodGoalBounce 1
+        positions: #Powershelled GoodGoalBounce 1
+        - !Vector3 {x: 1.5, y: 0, z: 20} #Powershelled GoodGoalBounce 1
+        rotations: [90] #Powershelled GoodGoalBounce 1
+        sizes: #Powershelled GoodGoalBounce 1
+        - !Vector3 {x: 2, y: 2, z: 2} #Goal Size #Powershelled GoodGoalBounce 1
+      - !Item #GoodGoalMultiBounce 2
+        name: GoodGoalMultiBounce #GoodGoalMultiBounce 2
+        positions: #GoodGoalMultiBounce 2
+        - !Vector3 {x: 1.5, y: 0, z: 30} #GoodGoalMultiBounce 2
+        rotations: [90] #GoodGoalMultiBounce 2
+        sizes: #GoodGoalMultiBounce 2
+        - !Vector3 {x: 2, y: 2, z: 2} #Goal Size #GoodGoalMultiBounce 2

@@ -1,0 +1,48 @@
+!ArenaConfig
+arenas:
+  -1: !Arena
+    pass_mark: 1 #pass mark
+    t: 750 #time limit
+    items:
+      - !Item #agent item parameter
+        name: Agent #agent name
+        positions: #agent position parameter
+        - !Vector3 {x: 20, y: 2, z: 1} #agent position
+        rotations: [0] #agent rotation
+      - !Item #wall item parameter
+        name: Wall  #wall name
+        positions:  #wall position parameter
+        - !Vector3 {x: 20, y: 0, z: 10} #wall position
+        sizes: #wall size parameter
+        - !Vector3 {x: 2, y: 0.7, z: 20} #wall size
+        colors: #wall color parameter
+        - !RGB {r: 0, g: 0, b: 255} #wall color
+        rotations: [0] #wall rotations
+      - !Item #GoodGoal item parameter
+        name: GoodGoal #GoodGoal name
+        positions: #GoodGoal position parameter
+        - !Vector3 {x: 2, y: 1, z: 32} #GoodGoal position
+        sizes: #GoodGoal size parameter
+        - !Vector3 {x: 1, y: 1, z: 1} #GoodGoal Size
+        rotations: [90] #GoodGoal rotation
+      - !Item #GoodGoalMulti item parameter
+        name: GoodGoalMulti #GoodGoalMulti name
+        positions: #GoodGoalMulti position parameter
+        - !Vector3 {x: 38, y: 1, z: 8} #GoodGoalMulti position
+        sizes: #GoodGoalMulti size parameter
+        - !Vector3 {x: 1, y: 1, z: 1} #GoodGoalMulti Size
+        rotations: [270] #GoodGoalMulti rotation
+      - !Item #death zone item parameter
+        name: DeathZone #death zone name
+        positions: #death zone position parameter
+        - !Vector3 {x: 29, y: 0, z: 24} #death zone position
+        sizes: #death zone size parameter
+        - !Vector3 {x: 22, y: 0, z: 8} #death zone size
+        rotations: [0] #death zone rotation
+
+
+
+
+
+
+

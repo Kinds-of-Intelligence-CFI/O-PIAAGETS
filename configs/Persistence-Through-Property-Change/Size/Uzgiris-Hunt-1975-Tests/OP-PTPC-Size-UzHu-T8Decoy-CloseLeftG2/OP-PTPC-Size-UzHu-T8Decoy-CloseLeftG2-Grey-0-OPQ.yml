@@ -1,0 +1,78 @@
+!ArenaConfig
+arenas:
+  -1: !Arena
+    pass_mark: 1 #pass mark
+    t: 750 #time limit
+    items:
+      - !Item #agent item parameter
+        name: Agent #agent name
+        positions: #agent position parameter
+        - !Vector3 {x: 20, y: 2, z: 1} #agent position
+        rotations: [0] #agent rotation
+        frozenAgentDelays: [7]
+      - !Item #wall item parameter
+        name: Wall  #wall name
+        positions:  #wall position parameter
+        - !Vector3 {x: 20, y: 0, z: 5} #wall position
+        - !Vector3 {x: 4.5, y: 0.1, z: 11} #wall position
+        - !Vector3 {x: 12, y: 0.1, z: 11} #wall position
+        - !Vector3 {x: 16, y: 0.1, z: 11} #wall position
+        - !Vector3 {x: 20, y: 0.1, z: 11} #wall position
+        - !Vector3 {x: 24, y: 0.1, z: 11} #wall position
+        - !Vector3 {x: 28, y: 0.1, z: 11} #wall position
+        - !Vector3 {x: 32, y: 0.1, z: 11} #wall position
+        - !Vector3 {x: 37.5, y: 0.1, z: 11} #wall position
+        - !Vector3 {x: 20, y: 0.7, z: 9} #wall position
+        sizes: #wall size parameter
+        - !Vector3 {x: 2, y: 0.7, z: 10} #wall size
+        - !Vector3 {x: 9, y: 4, z: 0.5} #wall size
+        - !Vector3 {x: 2, y: 4, z: 0.5} #wall size
+        - !Vector3 {x: 2, y: 4, z: 0.5} #wall size
+        - !Vector3 {x: 2, y: 4, z: 0.5} #wall size
+        - !Vector3 {x: 2, y: 4, z: 0.5} #wall size
+        - !Vector3 {x: 2, y: 4, z: 0.5} #wall size
+        - !Vector3 {x: 2, y: 4, z: 0.5} #wall size
+        - !Vector3 {x: 5, y: 4, z: 0.5} #wall size
+        - !Vector3 {x: 2, y: 1, z: 2} #wall size
+        colors: #wall color parameter
+        - !RGB {r: 0, g: 0, b: 255} #wall color
+        - !RGB {r: 153, g: 153, b: 153} #wall color
+        - !RGB {r: 153, g: 153, b: 153} #wall color
+        - !RGB {r: 153, g: 153, b: 153} #wall color
+        - !RGB {r: 153, g: 153, b: 153} #wall color
+        - !RGB {r: 153, g: 153, b: 153} #wall color
+        - !RGB {r: 153, g: 153, b: 153} #wall color
+        - !RGB {r: 153, g: 153, b: 153} #wall color
+        - !RGB {r: 153, g: 153, b: 153} #wall color
+        - !RGB {r: 0, g: 0, b: 255} #wall color
+        rotations: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0] #wall rotations
+      - !Item #ramp item parameter
+        name: Ramp #ramp name
+        positions: #ramp position parameter
+        - !Vector3 {x: 35, y: 0, z: 14} #ramp position
+        sizes: #ramp size parameter
+        - !Vector3 {x: 5, y: 2.1, z: 4} #ramp size
+        rotations: [270] #ramp rotation
+        colors: #ramp color parameter
+        - !RGB {r: 255, g: 0, b: 255} #ramp color
+      - !Item #GoodGoalBounce item parameter
+        name: GoodGoalBounce #GoodGoalBounce name
+        positions: #GoodGoalBounce position parameter
+        - !Vector3 {x: 2, y: 1, z: 14} #GoodGoalBounce position
+        sizes: #GoodGoalBounce size parameter
+        - !Vector3 {x: 2, y: 2, z: 2} #GoodGoalBounce Size
+        rotations: [90] #GoodGoalBounce rotation
+      - !Item #death zone item parameter
+        name: DeathZone #death zone name
+        positions: #death zone position parameter
+        - !Vector3 {x: 25.5, y: 0, z: 11} #death zone position
+        sizes: #death zone size parameter
+        - !Vector3 {x: 21, y: 0, z: 3} #death zone size
+        rotations: [0] #death zone rotation
+      - !Item #decoy goal item parameter
+        name: GoodGoal #decoy goal name
+        positions: #decoy goal position parameter
+        - !Vector3 {x: 30, y: 0.5, z: 8} #decoy goal position
+        sizes: #decoy size parameter
+        - !Vector3 {x: 0.25, y: 0.25, z: 0.25} #decoy size
+        rotations: [0] #decoy rotation

@@ -1,0 +1,70 @@
+!ArenaConfig
+arenas:
+  -1: !Arena
+    pass_mark: 2
+    t: 750
+    items:
+      - !Item
+        name: Agent
+        positions:
+        - !Vector3 {x: 19, y: 3, z: 9}
+        rotations: [0]
+        frozenAgentDelays: [19]
+      - !Item
+        name: Wall
+        positions:
+        - !Vector3 {x: 20, y: 0, z: 5}
+        - !Vector3 {x: 23.25, y: 0, z: 17.5}
+        - !Vector3 {x: 23.25, y: 10, z: 17.5}
+        - !Vector3 {x: 28, y: 0, z: 19.5}
+        sizes:
+        - !Vector3 {x: 10, y: 2, z: 10}
+        - !Vector3 {x: 8, y: 10, z: 2}
+        - !Vector3 {x: 8, y: 10, z: 2}
+        - !Vector3 {x: 12, y: 4, z: 2}
+        colors:
+        - !RGB {r: 0, g: 0, b: 255}
+        - !RGB {r: 1, g: 1, b: 153}
+        - !RGB {r: 1, g: 1, b: 153}
+        - !RGB {r: 0, g: 0, b: 255}
+        rotations: [0,0,0,0]
+      - !Item
+        name: DeathZone
+        positions:
+        - !Vector3 {x: 20, y: 0, z: 30.25}
+        - !Vector3 {x: 20, y: 0, z: 8.75}
+        rotations: [0,0]
+        sizes:
+        - !Vector3 {x: 4, y: 0, z: 19}
+        - !Vector3 {x: 4, y: 0, z: 17.5}
+      - !Item
+        name: Ramp
+        positions:
+        - !Vector3 {x: 20, y: 0, z: 14}
+        - !Vector3 {x: 38, y: 0, z: 19.5}
+        - !Vector3 {x: 21, y: 0, z: 19.5}
+        - !Vector3 {x: 23, y: 4, z: 19.5}
+        sizes:
+        - !Vector3 {x: 2, y: 1.5, z: 5}
+        - !Vector3 {x: 1, y: 0.01, z: 2}
+        - !Vector3 {x: 2, y: 0.4, z: 0.3}
+        - !Vector3 {x: 2, y: 0.15, z: 2}
+        colors:
+        - !RGB {r: 255, g: 0, b: 255}
+        - !RGB {r: 255, g: 0, b: 255}
+        - !RGB {r: 255, g: 0, b: 255}
+        - !RGB {r: 255, g: 0, b: 255}
+        rotations: [270, 270, 270, 90]
+      - !Item
+        name: GoodGoalMultiBounce
+        positions:
+        - !Vector3 {x: 1, y: 0, z: 19.5}
+        rotations: [90]
+        sizes:
+        - !Vector3 {x: 1, y: 1, z: 1}
+      - !Item
+        name: GoodGoalMulti
+        positions:
+        - !Vector3 {x: 22.1, y: 6, z: 19.5}
+        sizes:
+        - !Vector3 {x: 1, y: 1, z: 1}

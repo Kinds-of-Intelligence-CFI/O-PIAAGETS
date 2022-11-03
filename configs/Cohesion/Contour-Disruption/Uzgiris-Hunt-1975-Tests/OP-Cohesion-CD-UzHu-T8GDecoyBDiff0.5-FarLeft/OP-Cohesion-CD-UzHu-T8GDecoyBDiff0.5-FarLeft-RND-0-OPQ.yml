@@ -1,0 +1,81 @@
+!ArenaConfig
+arenas:
+  -1: !Arena
+    pass_mark: 2.5
+    t: 400
+    items:
+      - !Item
+        name: Agent
+        positions:
+        - !Vector3 {x: 20, y: 2, z: 1}
+        rotations: [0]
+        frozenAgentDelays: [8]
+      - !Item
+        name: Wall
+        positions:
+        - !Vector3 {x: 20, y: 0, z: 12.5}
+        - !Vector3 {x: 4.5, y: 0.1, z: 26}
+        - !Vector3 {x: 11.5, y: 0.1, z: 26}
+        - !Vector3 {x: 14, y: 0.1, z: 26}
+        - !Vector3 {x: 17, y: 0.1, z: 26}
+        - !Vector3 {x: 20, y: 0.1, z: 26}
+        - !Vector3 {x: 23, y: 0.1, z: 26}
+        - !Vector3 {x: 26, y: 0.1, z: 26}
+        - !Vector3 {x: 29, y: 0.1, z: 26}
+        - !Vector3 {x: 32, y: 0.1, z: 26}
+        - !Vector3 {x: 37, y: 0.1, z: 26}
+        sizes:
+        - !Vector3 {x: 2, y: 0.7, z: 25}
+        - !Vector3 {x: 9, y: 6, z: 0.5}
+        - !Vector3 {x: 2, y: 6, z: 0.5}
+        - !Vector3 {x: 2, y: 6, z: 0.5}
+        - !Vector3 {x: 2, y: 6, z: 0.5}
+        - !Vector3 {x: 2, y: 6, z: 0.5}
+        - !Vector3 {x: 2, y: 6, z: 0.5}
+        - !Vector3 {x: 2, y: 6, z: 0.5}
+        - !Vector3 {x: 2, y: 6, z: 0.5}
+        - !Vector3 {x: 2, y: 6, z: 0.5}
+        - !Vector3 {x: 6, y: 6, z: 0.5}
+        colors:
+        - !RGB {r: 0, g: 0, b: 255}
+        - !RGB {r: -1, g: -1, b: -1}
+        - !RGB {r: -1, g: -1, b: -1}
+        - !RGB {r: -1, g: -1, b: -1}
+        - !RGB {r: -1, g: -1, b: -1}
+        - !RGB {r: -1, g: -1, b: -1}
+        - !RGB {r: -1, g: -1, b: -1}
+        - !RGB {r: -1, g: -1, b: -1}
+        - !RGB {r: -1, g: -1, b: -1}
+        - !RGB {r: -1, g: -1, b: -1}
+        - !RGB {r: -1, g: -1, b: -1}
+        rotations: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+      - !Item
+        name: Ramp
+        positions:
+        - !Vector3 {x: 35, y: 0, z: 29}
+        sizes:
+        - !Vector3 {x: 4, y: 2.1, z: 4}
+        rotations: [270]
+        colors:
+        - !RGB {r: 255, g: 0, b: 255}
+      - !Item
+        name: GoodGoalBounce
+        positions:
+        - !Vector3 {x: 2, y: 1, z: 29}
+        sizes:
+        - !Vector3 {x: 3, y: 3, z: 3}
+        rotations: [90]
+      - !Item
+        name: DeathZone
+        positions:
+        - !Vector3 {x: 25.5, y: 0, z: 24}
+        sizes:
+        - !Vector3 {x: 23, y: 0, z: 5}
+        rotations: [0]
+      - !Item #decoy
+        name: GoodGoal #decoy
+        positions: #decoy
+        - !Vector3 {x: 30, y: 0.5, z: 10} #decoy 
+        sizes: #decoy
+        - !Vector3 {x: 3.5, y: 3.5, z: 3.5} #decoy
+        rotations: [0] #decoy

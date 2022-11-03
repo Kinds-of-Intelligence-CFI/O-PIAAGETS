@@ -1,0 +1,166 @@
+!ArenaConfig
+arenas:
+  -1: !Arena
+    pass_mark: 3.5
+    t: 400
+    items:
+      - !Item
+        name: Agent
+        positions:
+        - !Vector3 {x: 20, y: 2, z: 1}
+        rotations: [0]
+        frozenAgentDelays: [8]
+      - !Item
+        name: Wall
+        positions:
+        - !Vector3 {x: 20, y: 0, z: 9.5}
+        - !Vector3 {x: 15, y: 0, z: 19.25}
+        sizes:
+        - !Vector3 {x: 2, y: 0.7, z: 19}
+        - !Vector3 {x: 30, y: 0.7, z: 0.5}
+        colors:
+        - !RGB {r: 0, g: 0, b: 255}
+        - !RGB {r: 153, g: 153, b: 153}
+        rotations: [0,0]
+      - !Item
+        name: Wall
+        positions:
+        - !Vector3 {x: 27.5, y: 0.7, z: 19.25}
+        - !Vector3 {x: 21.5, y: 0.7, z: 19.25}
+        - !Vector3 {x: 15.5, y: 0.7, z: 19.25}
+        - !Vector3 {x: 9.5, y: 0.7, z: 19.25}
+        - !Vector3 {x: 3.5, y: 0.7, z: 19.25}
+        sizes:
+        - !Vector3 {x: 5, y: 0.5, z: 0.5}
+        - !Vector3 {x: 5, y: 0.5, z: 0.5}
+        - !Vector3 {x: 5, y: 0.5, z: 0.5}
+        - !Vector3 {x: 5, y: 0.5, z: 0.5}
+        - !Vector3 {x: 5, y: 0.5, z: 0.5}
+        colors:
+        - !RGB {r: 153, g: 153, b: 153}
+        - !RGB {r: 153, g: 153, b: 153}
+        - !RGB {r: 153, g: 153, b: 153}
+        - !RGB {r: 153, g: 153, b: 153}
+        - !RGB {r: 153, g: 153, b: 153}
+        rotations: [0,0,0,0,0]
+      - !Item
+        name: Wall
+        positions:
+        - !Vector3 {x: 25.75, y: 1.3, z: 19.25}
+        - !Vector3 {x: 18, y: 1.3, z: 19.25}
+        - !Vector3 {x: 12, y: 1.3, z: 19.25}
+        - !Vector3 {x: 4.25, y: 1.3, z: 19.25}
+        sizes:
+        - !Vector3 {x: 8.5, y: 0.5, z: 0.5}
+        - !Vector3 {x: 5, y: 0.5, z: 0.5}
+        - !Vector3 {x: 5, y: 0.5, z: 0.5}
+        - !Vector3 {x: 8.5, y: 0.5, z: 0.5}
+        colors:
+        - !RGB {r: 153, g: 153, b: 153}
+        - !RGB {r: 153, g: 153, b: 153}
+        - !RGB {r: 153, g: 153, b: 153}
+        - !RGB {r: 153, g: 153, b: 153}
+        rotations: [0,0,0,0]
+      - !Item
+        name: Wall
+        positions:
+        - !Vector3 {x: 27.5, y: 1.8, z: 19.25}
+        - !Vector3 {x: 21.5, y: 1.8, z: 19.25}
+        - !Vector3 {x: 15.5, y: 1.8, z: 19.25}
+        - !Vector3 {x: 9.5, y: 1.8, z: 19.25}
+        - !Vector3 {x: 3.5, y: 1.8, z: 19.25}
+        sizes:
+        - !Vector3 {x: 5, y: 0.5, z: 0.5}
+        - !Vector3 {x: 5, y: 0.5, z: 0.5}
+        - !Vector3 {x: 5, y: 0.5, z: 0.5}
+        - !Vector3 {x: 5, y: 0.5, z: 0.5}
+        - !Vector3 {x: 5, y: 0.5, z: 0.5}
+        colors:
+        - !RGB {r: 153, g: 153, b: 153}
+        - !RGB {r: 153, g: 153, b: 153}
+        - !RGB {r: 153, g: 153, b: 153}
+        - !RGB {r: 153, g: 153, b: 153}
+        - !RGB {r: 153, g: 153, b: 153}
+        rotations: [0,0,0,0,0]
+      - !Item
+        name: Wall
+        positions:
+        - !Vector3 {x: 25.75, y: 2.3, z: 19.25}
+        - !Vector3 {x: 18, y: 2.3, z: 19.25}
+        - !Vector3 {x: 12, y: 2.3, z: 19.25}
+        - !Vector3 {x: 4.25, y: 2.3, z: 19.25}
+        sizes:
+        - !Vector3 {x: 8.5, y: 0.5, z: 0.5}
+        - !Vector3 {x: 5, y: 0.5, z: 0.5}
+        - !Vector3 {x: 5, y: 0.5, z: 0.5}
+        - !Vector3 {x: 8.5, y: 0.5, z: 0.5}
+        colors:
+        - !RGB {r: 153, g: 153, b: 153}
+        - !RGB {r: 153, g: 153, b: 153}
+        - !RGB {r: 153, g: 153, b: 153}
+        - !RGB {r: 153, g: 153, b: 153}
+        rotations: [0,0,0,0]
+      - !Item
+        name: Wall
+        positions:
+        - !Vector3 {x: 27.5, y: 2.8, z: 19.25}
+        - !Vector3 {x: 21.5, y: 2.8, z: 19.25}
+        - !Vector3 {x: 15.5, y: 2.8, z: 19.25}
+        - !Vector3 {x: 9.5, y: 2.8, z: 19.25}
+        - !Vector3 {x: 3.5, y: 2.8, z: 19.25}
+        sizes:
+        - !Vector3 {x: 5, y: 0.5, z: 0.5}
+        - !Vector3 {x: 5, y: 0.5, z: 0.5}
+        - !Vector3 {x: 5, y: 0.5, z: 0.5}
+        - !Vector3 {x: 5, y: 0.5, z: 0.5}
+        - !Vector3 {x: 5, y: 0.5, z: 0.5}
+        colors:
+        - !RGB {r: 153, g: 153, b: 153}
+        - !RGB {r: 153, g: 153, b: 153}
+        - !RGB {r: 153, g: 153, b: 153}
+        - !RGB {r: 153, g: 153, b: 153}
+        - !RGB {r: 153, g: 153, b: 153}
+        rotations: [0,0,0,0,0]
+      - !Item
+        name: Wall
+        positions:
+        - !Vector3 {x: 25.75, y: 3.3, z: 19.25}
+        - !Vector3 {x: 18, y: 3.3, z: 19.25}
+        - !Vector3 {x: 12, y: 3.3, z: 19.25}
+        - !Vector3 {x: 14.25, y: 3.3, z: 19.25}
+        sizes:
+        - !Vector3 {x: 8.5, y: 0.5, z: 0.5}
+        - !Vector3 {x: 5, y: 0.5, z: 0.5}
+        - !Vector3 {x: 5, y: 0.5, z: 0.5}
+        - !Vector3 {x: 8.5, y: 0.5, z: 0.5}
+        colors:
+        - !RGB {r: 153, g: 153, b: 153}
+        - !RGB {r: 153, g: 153, b: 153}
+        - !RGB {r: 153, g: 153, b: 153}
+        - !RGB {r: 153, g: 153, b: 153}
+        rotations: [0,0,0,0]
+      - !Item
+        name: Ramp
+        positions:
+        - !Vector3 {x: 25, y: 0, z: 30}
+        - !Vector3 {x: 2, y: 0, z: 30}
+        sizes:
+        - !Vector3 {x: 17, y: 1, z: 4}
+        - !Vector3 {x: 17, y: 1, z: 4}
+        rotations: [90, 90]
+        colors:
+        - !RGB {r: 255, g: 0, b: 255}
+        - !RGB {r: 255, g: 0, b: 255}
+      - !Item #GoodGoalBounce
+        name: GoodGoalBounce #GoodGoalBounce
+        positions: #GoodGoalBounce
+        - !Vector3 {x: 38, y: 0, z: 23.5} #GoodGoalBounce
+        sizes: #GoodGoalBounce
+        - !Vector3 {x: 3, y: 3, z: 3} #GoodGoalBounce
+        rotations: [270] #GoodGoalBounce
+      - !Item #decoy goal 
+        name: GoodGoal #decoy goal 
+        positions: #decoy goal 
+        - !Vector3 {x: 10, y: 0, z: 10} #decoy goal 
+        sizes: #decoy goal 
+        - !Vector3 {x: 5.5, y: 5.5, z: 5.5} #decoy goal size

@@ -1,6 +1,6 @@
 !ArenaConfig
 arenas:
-  0: !Arena
+  -1: !Arena
     pass_mark: 0.5
     t: 1000
     items:
@@ -211,7 +211,7 @@ arenas:
       - !RGB {r: 255, g: 0, b: 255}
 !ArenaConfig
 arenas:
-  0: !Arena
+  -1: !Arena
     pass_mark: 0.5
     t: 1000
     items:
@@ -422,7 +422,7 @@ arenas:
       - !RGB {r: 255, g: 0, b: 255}
 !ArenaConfig
 arenas:
-  0: !Arena
+  -1: !Arena
     pass_mark: 0.5
     t: 1000
     items:
@@ -633,7 +633,7 @@ arenas:
       - !RGB {r: 255, g: 0, b: 255}
 !ArenaConfig
 arenas:
-  0: !Arena
+  -1: !Arena
     pass_mark: 0.5
     t: 1000
     items:
@@ -844,7 +844,7 @@ arenas:
       - !RGB {r: 255, g: 0, b: 255}
 !ArenaConfig
 arenas:
-  0: !Arena
+  -1: !Arena
     pass_mark: 0.5
     t: 1000
     items:
@@ -1055,7 +1055,7 @@ arenas:
       - !RGB {r: 255, g: 0, b: 255}
 !ArenaConfig
 arenas:
-  0: !Arena
+  -1: !Arena
     pass_mark: 0.5
     t: 1000
     items:
@@ -1266,7 +1266,7 @@ arenas:
       - !RGB {r: 255, g: 0, b: 255}
 !ArenaConfig
 arenas:
-  0: !Arena
+  -1: !Arena
     pass_mark: 0.5
     t: 1000
     items:
@@ -1477,7 +1477,7 @@ arenas:
       - !RGB {r: 255, g: 0, b: 255}
 !ArenaConfig
 arenas:
-  0: !Arena
+  -1: !Arena
     pass_mark: 0.5
     t: 1000
     items:
@@ -1688,7 +1688,7 @@ arenas:
       - !RGB {r: 255, g: 0, b: 255}
 !ArenaConfig
 arenas:
-  0: !Arena
+  -1: !Arena
     pass_mark: 0.5
     t: 1000
     items:
@@ -1899,7 +1899,7 @@ arenas:
       - !RGB {r: 255, g: 0, b: 255}
 !ArenaConfig
 arenas:
-  0: !Arena
+  -1: !Arena
     pass_mark: 0.5
     t: 1000
     items:
@@ -2110,7 +2110,7 @@ arenas:
       - !RGB {r: 255, g: 0, b: 255}
 !ArenaConfig
 arenas:
-  0: !Arena
+  -1: !Arena
     pass_mark: 0.5
     t: 1000
     items:
@@ -2321,7 +2321,7 @@ arenas:
       - !RGB {r: 255, g: 0, b: 255}
 !ArenaConfig
 arenas:
-  0: !Arena
+  -1: !Arena
     pass_mark: 0.5
     t: 1000
     items:
@@ -2532,7 +2532,7 @@ arenas:
       - !RGB {r: 255, g: 0, b: 255}
 !ArenaConfig
 arenas:
-  0: !Arena
+  -1: !Arena
     pass_mark: 0.5
     t: 1000
     items:
@@ -2743,7 +2743,7 @@ arenas:
       - !RGB {r: 255, g: 0, b: 255}
 !ArenaConfig
 arenas:
-  0: !Arena
+  -1: !Arena
     pass_mark: 0.5
     t: 1000
     items:
@@ -2954,7 +2954,7 @@ arenas:
       - !RGB {r: 255, g: 0, b: 255}
 !ArenaConfig
 arenas:
-  0: !Arena
+  -1: !Arena
     pass_mark: 0.5
     t: 1000
     items:
@@ -3165,7 +3165,7 @@ arenas:
       - !RGB {r: 255, g: 0, b: 255}
 !ArenaConfig
 arenas:
-  0: !Arena
+  -1: !Arena
     pass_mark: 0.5
     t: 1000
     items:
@@ -3376,7 +3376,7 @@ arenas:
       - !RGB {r: 255, g: 0, b: 255}
 !ArenaConfig
 arenas:
-  0: !Arena
+  -1: !Arena
     pass_mark: 0.5
     t: 1000
     items:
@@ -3587,7 +3587,7 @@ arenas:
       - !RGB {r: 255, g: 0, b: 255}
 !ArenaConfig
 arenas:
-  0: !Arena
+  -1: !Arena
     pass_mark: 0.5
     t: 1000
     items:
@@ -3798,7 +3798,7 @@ arenas:
       - !RGB {r: 255, g: 0, b: 255}
 !ArenaConfig
 arenas:
-  0: !Arena
+  -1: !Arena
     pass_mark: 0.5
     t: 1000
     items:
@@ -4009,7 +4009,7 @@ arenas:
       - !RGB {r: 255, g: 0, b: 255}
 !ArenaConfig
 arenas:
-  0: !Arena
+  -1: !Arena
     pass_mark: 0.5
     t: 1000
     items:
@@ -4220,7 +4220,7 @@ arenas:
       - !RGB {r: 255, g: 0, b: 255}
 !ArenaConfig
 arenas:
-  0: !Arena
+  -1: !Arena
     pass_mark: 0.5
     t: 1000
     items:
@@ -4431,7 +4431,7 @@ arenas:
       - !RGB {r: 255, g: 0, b: 255}
 !ArenaConfig
 arenas:
-  0: !Arena
+  -1: !Arena
     pass_mark: 0.5
     t: 1000
     items:
@@ -4642,7 +4642,7 @@ arenas:
       - !RGB {r: 255, g: 0, b: 255}
 !ArenaConfig
 arenas:
-  0: !Arena
+  -1: !Arena
     pass_mark: 0.5
     t: 1000
     items:
@@ -4853,7 +4853,7 @@ arenas:
       - !RGB {r: 255, g: 0, b: 255}
 !ArenaConfig
 arenas:
-  0: !Arena
+  -1: !Arena
     pass_mark: 0.5
     t: 1000
     items:
@@ -5064,7 +5064,7 @@ arenas:
       - !RGB {r: 255, g: 0, b: 255}
 !ArenaConfig
 arenas:
-  0: !Arena
+  -1: !Arena
     pass_mark: 0.5
     t: 1000
     items:
@@ -5275,7 +5275,7 @@ arenas:
       - !RGB {r: 255, g: 0, b: 255}
 !ArenaConfig
 arenas:
-  0: !Arena
+  -1: !Arena
     pass_mark: 0.5
     t: 1000
     items:
@@ -5486,7 +5486,7 @@ arenas:
       - !RGB {r: 255, g: 0, b: 255}
 !ArenaConfig
 arenas:
-  0: !Arena
+  -1: !Arena
     pass_mark: 0.5
     t: 1000
     items:
@@ -5697,7 +5697,7 @@ arenas:
       - !RGB {r: 255, g: 0, b: 255}
 !ArenaConfig
 arenas:
-  0: !Arena
+  -1: !Arena
     pass_mark: 0.5
     t: 1000
     items:
@@ -5908,7 +5908,7 @@ arenas:
       - !RGB {r: 255, g: 0, b: 255}
 !ArenaConfig
 arenas:
-  0: !Arena
+  -1: !Arena
     pass_mark: 0.5
     t: 1000
     items:
@@ -6119,7 +6119,7 @@ arenas:
       - !RGB {r: 255, g: 0, b: 255}
 !ArenaConfig
 arenas:
-  0: !Arena
+  -1: !Arena
     pass_mark: 0.5
     t: 1000
     items:
@@ -6330,7 +6330,7 @@ arenas:
       - !RGB {r: 255, g: 0, b: 255}
 !ArenaConfig
 arenas:
-  0: !Arena
+  -1: !Arena
     pass_mark: 0.5
     t: 1000
     items:
@@ -6541,7 +6541,7 @@ arenas:
       - !RGB {r: 255, g: 0, b: 255}
 !ArenaConfig
 arenas:
-  0: !Arena
+  -1: !Arena
     pass_mark: 0.5
     t: 1000
     items:
@@ -6752,7 +6752,7 @@ arenas:
       - !RGB {r: 255, g: 0, b: 255}
 !ArenaConfig
 arenas:
-  0: !Arena
+  -1: !Arena
     pass_mark: 0.5
     t: 1000
     items:
@@ -6963,7 +6963,7 @@ arenas:
       - !RGB {r: 255, g: 0, b: 255}
 !ArenaConfig
 arenas:
-  0: !Arena
+  -1: !Arena
     pass_mark: 0.5
     t: 1000
     items:
@@ -7174,7 +7174,7 @@ arenas:
       - !RGB {r: 255, g: 0, b: 255}
 !ArenaConfig
 arenas:
-  0: !Arena
+  -1: !Arena
     pass_mark: 0.5
     t: 1000
     items:
@@ -7385,7 +7385,7 @@ arenas:
       - !RGB {r: 255, g: 0, b: 255}
 !ArenaConfig
 arenas:
-  0: !Arena
+  -1: !Arena
     pass_mark: 0.5
     t: 1000
     items:
@@ -7596,7 +7596,7 @@ arenas:
       - !RGB {r: 255, g: 0, b: 255}
 !ArenaConfig
 arenas:
-  0: !Arena
+  -1: !Arena
     pass_mark: 0.5
     t: 1000
     items:
@@ -7807,7 +7807,7 @@ arenas:
       - !RGB {r: 255, g: 0, b: 255}
 !ArenaConfig
 arenas:
-  0: !Arena
+  -1: !Arena
     pass_mark: 0.5
     t: 1000
     items:
@@ -8018,7 +8018,7 @@ arenas:
       - !RGB {r: 255, g: 0, b: 255}
 !ArenaConfig
 arenas:
-  0: !Arena
+  -1: !Arena
     pass_mark: 0.5
     t: 1000
     items:
@@ -8229,7 +8229,7 @@ arenas:
       - !RGB {r: 255, g: 0, b: 255}
 !ArenaConfig
 arenas:
-  0: !Arena
+  -1: !Arena
     pass_mark: 0.5
     t: 1000
     items:
@@ -8440,7 +8440,7 @@ arenas:
       - !RGB {r: 255, g: 0, b: 255}
 !ArenaConfig
 arenas:
-  0: !Arena
+  -1: !Arena
     pass_mark: 0.5
     t: 1000
     items:
@@ -8651,7 +8651,7 @@ arenas:
       - !RGB {r: 255, g: 0, b: 255}
 !ArenaConfig
 arenas:
-  0: !Arena
+  -1: !Arena
     pass_mark: 0.5
     t: 1000
     items:
@@ -8862,7 +8862,7 @@ arenas:
       - !RGB {r: 255, g: 0, b: 255}
 !ArenaConfig
 arenas:
-  0: !Arena
+  -1: !Arena
     pass_mark: 0.5
     t: 1000
     items:
@@ -9073,7 +9073,7 @@ arenas:
       - !RGB {r: 255, g: 0, b: 255}
 !ArenaConfig
 arenas:
-  0: !Arena
+  -1: !Arena
     pass_mark: 0.5
     t: 1000
     items:
@@ -9284,7 +9284,7 @@ arenas:
       - !RGB {r: 255, g: 0, b: 255}
 !ArenaConfig
 arenas:
-  0: !Arena
+  -1: !Arena
     pass_mark: 0.5
     t: 1000
     items:
@@ -9495,7 +9495,7 @@ arenas:
       - !RGB {r: 255, g: 0, b: 255}
 !ArenaConfig
 arenas:
-  0: !Arena
+  -1: !Arena
     pass_mark: 0.5
     t: 1000
     items:
@@ -9706,7 +9706,7 @@ arenas:
       - !RGB {r: 255, g: 0, b: 255}
 !ArenaConfig
 arenas:
-  0: !Arena
+  -1: !Arena
     pass_mark: 0.5
     t: 1000
     items:
@@ -9917,7 +9917,7 @@ arenas:
       - !RGB {r: 255, g: 0, b: 255}
 !ArenaConfig
 arenas:
-  0: !Arena
+  -1: !Arena
     pass_mark: 0.5
     t: 1000
     items:
@@ -10128,7 +10128,7 @@ arenas:
       - !RGB {r: 255, g: 0, b: 255}
 !ArenaConfig
 arenas:
-  0: !Arena
+  -1: !Arena
     pass_mark: 0.5
     t: 1000
     items:
@@ -10339,7 +10339,7 @@ arenas:
       - !RGB {r: 255, g: 0, b: 255}
 !ArenaConfig
 arenas:
-  0: !Arena
+  -1: !Arena
     pass_mark: 0.5
     t: 1000
     items:
@@ -10550,7 +10550,7 @@ arenas:
       - !RGB {r: 255, g: 0, b: 255}
 !ArenaConfig
 arenas:
-  0: !Arena
+  -1: !Arena
     pass_mark: 0.5
     t: 1000
     items:
@@ -10761,7 +10761,7 @@ arenas:
       - !RGB {r: 255, g: 0, b: 255}
 !ArenaConfig
 arenas:
-  0: !Arena
+  -1: !Arena
     pass_mark: 0.5
     t: 1000
     items:
@@ -10972,7 +10972,7 @@ arenas:
       - !RGB {r: 255, g: 0, b: 255}
 !ArenaConfig
 arenas:
-  0: !Arena
+  -1: !Arena
     pass_mark: 0.5
     t: 1000
     items:
@@ -11183,7 +11183,7 @@ arenas:
       - !RGB {r: 255, g: 0, b: 255}
 !ArenaConfig
 arenas:
-  0: !Arena
+  -1: !Arena
     pass_mark: 0.5
     t: 1000
     items:
@@ -11394,7 +11394,7 @@ arenas:
       - !RGB {r: 255, g: 0, b: 255}
 !ArenaConfig
 arenas:
-  0: !Arena
+  -1: !Arena
     pass_mark: 0.5
     t: 1000
     items:
@@ -11605,7 +11605,7 @@ arenas:
       - !RGB {r: 255, g: 0, b: 255}
 !ArenaConfig
 arenas:
-  0: !Arena
+  -1: !Arena
     pass_mark: 0.5
     t: 1000
     items:
@@ -11816,7 +11816,7 @@ arenas:
       - !RGB {r: 255, g: 0, b: 255}
 !ArenaConfig
 arenas:
-  0: !Arena
+  -1: !Arena
     pass_mark: 0.5
     t: 1000
     items:
@@ -12027,7 +12027,7 @@ arenas:
       - !RGB {r: 255, g: 0, b: 255}
 !ArenaConfig
 arenas:
-  0: !Arena
+  -1: !Arena
     pass_mark: 0.5
     t: 1000
     items:
@@ -12238,7 +12238,7 @@ arenas:
       - !RGB {r: 255, g: 0, b: 255}
 !ArenaConfig
 arenas:
-  0: !Arena
+  -1: !Arena
     pass_mark: 0.5
     t: 1000
     items:
@@ -12449,7 +12449,7 @@ arenas:
       - !RGB {r: 255, g: 0, b: 255}
 !ArenaConfig
 arenas:
-  0: !Arena
+  -1: !Arena
     pass_mark: 0.5
     t: 1000
     items:
@@ -12660,7 +12660,7 @@ arenas:
       - !RGB {r: 255, g: 0, b: 255}
 !ArenaConfig
 arenas:
-  0: !Arena
+  -1: !Arena
     pass_mark: 0.5
     t: 1000
     items:
@@ -12871,7 +12871,7 @@ arenas:
       - !RGB {r: 255, g: 0, b: 255}
 !ArenaConfig
 arenas:
-  0: !Arena
+  -1: !Arena
     pass_mark: 0.5
     t: 1000
     items:
@@ -13082,7 +13082,7 @@ arenas:
       - !RGB {r: 255, g: 0, b: 255}
 !ArenaConfig
 arenas:
-  0: !Arena
+  -1: !Arena
     pass_mark: 0.5
     t: 1000
     items:
@@ -13293,7 +13293,7 @@ arenas:
       - !RGB {r: 255, g: 0, b: 255}
 !ArenaConfig
 arenas:
-  0: !Arena
+  -1: !Arena
     pass_mark: 0.5
     t: 1000
     items:

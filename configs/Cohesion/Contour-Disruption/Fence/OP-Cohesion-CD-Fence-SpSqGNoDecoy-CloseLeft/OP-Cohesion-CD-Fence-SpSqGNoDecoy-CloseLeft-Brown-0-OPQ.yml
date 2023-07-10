@@ -1,7 +1,7 @@
 !ArenaConfig
 arenas:
   -1: !Arena
-    pass_mark: 3.5
+    pass_mark: 2.5
     t: 400
     items:
       - !Item
@@ -158,9 +158,3 @@ arenas:
         sizes: #GoodGoalBounce
         - !Vector3 {x: 3, y: 3, z: 3} #GoodGoalBounce
         rotations: [270] #GoodGoalBounce
-      - !Item #decoy goal 
-        name: GoodGoal #decoy goal 
-        positions: #decoy goal 
-        - !Vector3 {x: 10, y: 0, z: 10} #decoy goal 
-        sizes: #decoy goal 
-        - !Vector3 {x: 5.5, y: 5.5, z: 5.5} #decoy goal size

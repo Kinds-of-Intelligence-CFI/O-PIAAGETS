@@ -43,7 +43,7 @@ arenas:
      # 
       
     - !Item
-      name: GoodGoalMulti
+      name: GoodGoal
       positions:
       #- !Vector3 {x: 8, y: 10, z: 38}
       #- !Vector3 {x: 20, y: 10, z: 38}

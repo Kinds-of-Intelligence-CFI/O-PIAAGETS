@@ -14,11 +14,11 @@ arenas:
         name: Wall
         positions:
         - !Vector3 {x: 20, y: 0, z: 5}
-        - !Vector3 {x: 17.5, y: 0, z: 10.1}
-        - !Vector3 {x: 6, y: 0, z: 10.1}
-        - !Vector3 {x: 12.25, y: 0, z: 10.1}
-        - !Vector3 {x: 11.25, y: 1.25, z: 10.1}
-        - !Vector3 {x: 8.5, y: 0, z: 12.5}
+        - !Vector3 {x: 22.5, y: 0, z: 10.1}
+        - !Vector3 {x: 34, y: 0, z: 10.1}
+        - !Vector3 {x: 27.75, y: 0, z: 10.1}
+        - !Vector3 {x: 28.75, y: 1.25, z: 10.1}
+        - !Vector3 {x: 31.5, y: 0, z: 12.5}
         - !Vector3 {x: 20, y: 0.7, z: 7.5}
         sizes:
         - !Vector3 {x: 2, y: 0.7, z: 10}
@@ -40,23 +40,23 @@ arenas:
       - !Item
         name: Ramp
         positions:
-        - !Vector3 {x: 14.5, y: 0, z: 12.5}
+        - !Vector3 {x: 25.5, y: 0, z: 12.5}
         sizes:
         - !Vector3 {x: 4, y: 1.5, z: 4}
-        rotations: [90]
+        rotations: [270]
         colors:
         - !RGB {r: 255, g: 0, b: 255}
       - !Item
         name: GoodGoalBounce
         positions:
-        - !Vector3 {x: 38, y: 1, z: 12}
+        - !Vector3 {x: 2, y: 1, z: 12}
         sizes:
         - !Vector3 {x: 3, y: 3, z: 3}
-        rotations: [270]
+        rotations: [90]
       - !Item #decoy
         name: GoodGoal #decoy
         positions: #decoy
-        - !Vector3 {x: 11, y: 0.5, z: 5} #decoy position
+        - !Vector3 {x: 29, y: 0.5, z: 5} #decoy position
         sizes: #decoy
         - !Vector3 {x: 4.5, y: 4.5, z: 4.5} #decoy size
         rotations: [0] #decoy

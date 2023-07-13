@@ -16,8 +16,8 @@ arenas:
       positions:
       - !Vector3 {x: 20, y: 0, z: 10}
       - !Vector3 {x: 20, y: .5, z: 2.5}
-      - !Vector3 {x: 10, y: 0, z: 39.5}
-      - !Vector3 {x: 30, y: 0, z: 39.5}
+      - !Vector3 {x: 10, y: 0, z: 39.9}
+      - !Vector3 {x: 30, y: 0, z: 39.9}
       #- !Vector3 {x: 5, y: 0, z: 38}
       - !Vector3 {x: 20, y: 0, z: 38}
       - !Vector3 {x: 20, y: 0, z: 39.9}
@@ -34,8 +34,8 @@ arenas:
       sizes:
       - !Vector3 {x: 2, y: .5, z: 19.5}
       - !Vector3 {x: 2, y: .5, z: 5}
-      - !Vector3 {x: 10, y: 5, z: 1}
-      - !Vector3 {x: 10, y: 5, z: 1}
+      - !Vector3 {x: 10, y: 5, z: 0.1}
+      - !Vector3 {x: 10, y: 5, z: 0.1}
       #- !Vector3 {x: 1, y: .5, z: 2}
       - !Vector3 {x: 2, y: 2, z: 2}
       - !Vector3 {x: 10, y: 2, z: 0.1}

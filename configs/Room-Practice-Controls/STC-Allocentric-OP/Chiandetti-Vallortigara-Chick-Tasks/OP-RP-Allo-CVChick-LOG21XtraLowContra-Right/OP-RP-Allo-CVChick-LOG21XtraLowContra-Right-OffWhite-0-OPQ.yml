@@ -54,7 +54,7 @@ arenas:
       rotations: [90,270]
       positions:
       - !Vector3 {x: 10, y: 0, z: 38}
-      - !Vector3 {x: 10, y: 0, z: 38}
+      - !Vector3 {x: 30, y: 0, z: 38}
       colors:
       - !RGB {r: 255, g: 0, b: 255}
       - !RGB {r: 255, g: 0, b: 255}

@@ -33,7 +33,7 @@ arenas:
         - !Vector3 {x: 2, y: 1, z: 10} #ramp
         colors: #ramp
         - !RGB {r: 255, g: 0, b: 255} #ramp
-        rotations: [270] #ramp
+        rotations: [90] #ramp
       - !Item #Powershelled GoodGoalMultiBounce 2
         name: GoodGoalMultiBounce #Powershelled GoodGoalMultiBounce 2
         positions: #Powershelled GoodGoalMultiBounce 2

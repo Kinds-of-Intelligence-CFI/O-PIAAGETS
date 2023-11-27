@@ -1,6 +1,6 @@
 !ArenaConfig
 arenas:
-  -1: !Arena
+  0: !Arena
     pass_mark: 11 #powershelled pass_mark
     t: 750 #time limit
     items:

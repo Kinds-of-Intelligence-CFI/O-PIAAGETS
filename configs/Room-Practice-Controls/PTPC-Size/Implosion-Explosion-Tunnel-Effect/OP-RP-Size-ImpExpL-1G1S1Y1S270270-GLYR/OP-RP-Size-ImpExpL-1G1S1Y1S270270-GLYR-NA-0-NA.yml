@@ -1,7 +1,7 @@
 !ArenaConfig
 arenas:
   0: !Arena
-    pass_mark: 1 #pass_mark
+    pass_mark: 0 #pass_mark
     t: 500
     items:
       - !Item

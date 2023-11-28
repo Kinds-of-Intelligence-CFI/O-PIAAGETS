@@ -1,7 +1,7 @@
 !ArenaConfig
 arenas:
   0: !Arena
-    pass_mark: 5
+    pass_mark: 3
     t: 500
     items:
       - !Item
@@ -33,25 +33,25 @@ arenas:
         - !Vector3 {x: 2, y: 1, z: 4} #ramp
         colors: #ramp
         - !RGB {r: 255, g: 0, b: 255} #ramp
-        rotations: [270] #ramp
+        rotations: [90] #ramp
       - !Item #GoodGoalBounce 1
         name: GoodGoalBounce #GoodGoalBounce 1
         positions: #GoodGoalBounce 1
         - !Vector3 {x: 1.5, y: 0, z: 25} #GoodGoalBounce 1
         rotations: [90] #GoodGoalBounce 1
         sizes: #GoodGoalBounce 1
-        - !Vector3 {x: 2, y: 2, z: 2} #Goal Size #GoodGoalBounce Size
+        - !Vector3 {x: 2, y: 2, z: 2} #GoodGoalBounce Size
       - !Item #GoodGoalMulti 1
         name: GoodGoalMulti #GoodGoalMulti 1
         positions: #GoodGoalMulti 1
         - !Vector3 {x: 38.5, y: 0, z: 20} #GoodGoalMulti 1
         rotations: [270] #GoodGoalMulti 1
         sizes: #GoodGoalMulti 1
-        - !Vector3 {x: 2, y: 2, z: 2} #Goal Size #GoodGoalMulti 1
+        - !Vector3 {x: 2, y: 2, z: 2} #GoodGoalMulti 1
       - !Item #GoodGoalMulti 2
         name: GoodGoalMultiBounce #GoodGoalMultiBounce 2
         positions: #GoodGoalMulti 2
         - !Vector3 {x: 38.5, y: 0, z: 30} #GoodGoalMulti 2
         rotations: [270] #GoodGoalMulti 2
         sizes: #GoodGoalMulti 2
-        - !Vector3 {x: 2, y: 2, z: 2} #Goal Size #GoodGoalMulti 2
+        - !Vector3 {x: 2, y: 2, z: 2} #GoodGoalMulti 2

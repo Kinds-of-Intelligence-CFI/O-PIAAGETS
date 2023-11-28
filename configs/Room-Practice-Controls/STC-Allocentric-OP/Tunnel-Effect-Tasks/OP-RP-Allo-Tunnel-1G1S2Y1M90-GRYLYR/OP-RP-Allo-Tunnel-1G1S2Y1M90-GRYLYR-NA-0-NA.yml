@@ -1,7 +1,7 @@
 !ArenaConfig
 arenas:
   0: !Arena
-    pass_mark: 2
+    pass_mark: 1
     t: 500
     items:
       - !Item
@@ -33,9 +33,9 @@ arenas:
         - !Vector3 {x: 2, y: 1, z: 4} #ramp
         colors: #ramp
         - !RGB {r: 255, g: 0, b: 255} #ramp
-        rotations: [270] #ramp
+        rotations: [90] #ramp
       - !Item #Powershelled GoodGoalMulti 2
-        name: GoodGoalMulti #Powershelled GoodGoalMulti 2
+        name: GoodGoalMultiBounce #Powershelled GoodGoalMulti 2
         positions: #Powershelled GoodGoalMulti 2
         - !Vector3 {x: 1.5, y: 0, z: 25} #Powershelled GoodGoalMulti 2
         rotations: [90] #Powershelled GoodGoalMulti 2
@@ -49,7 +49,7 @@ arenas:
         sizes: #GoodGoalMulti 1
         - !Vector3 {x: 1, y: 1, z: 1} #GoodGoalMulti 1
       - !Item #Powershelled GoodGoal 1
-        name: GoodGoalBounce #Powershelled GoodGoalBounce 1
+        name: GoodGoal #Powershelled GoodGoalBounce 1
         positions: #Powershelled GoodGoal 1
         - !Vector3 {x: 38.5, y: 0, z: 30} #Powershelled GoodGoal 1
         rotations: [270] #Powershelled GoodGoal 1

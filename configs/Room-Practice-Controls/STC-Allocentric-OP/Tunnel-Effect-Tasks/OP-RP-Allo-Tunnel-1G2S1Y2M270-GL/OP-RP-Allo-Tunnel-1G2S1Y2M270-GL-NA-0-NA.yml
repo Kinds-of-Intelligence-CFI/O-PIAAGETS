@@ -40,11 +40,11 @@ arenas:
         - !Vector3 {x: 1.5, y: 0, z: 22} #GoodGoal
         rotations: [90] #GoodGoal
         sizes: #GoodGoal
-        - !Vector3 {x: 2, y: 2, z: 2} #Goal Size #GoodGoal Size
+        - !Vector3 {x: 2, y: 2, z: 2} #GoodGoal Size
       - !Item #GoodGoalMulti
         name: GoodGoalMultiBounce #GoodGoalMultiBounce
         positions: #GoodGoalMulti
         - !Vector3 {x: 38.5, y: 0, z: 28} #GoodGoalMulti
         rotations: [270] #GoodGoalMulti
         sizes: #GoodGoalMulti
-        - !Vector3 {x: 2, y: 2, z: 2} #Goal Size #GoodGoalMulti
+        - !Vector3 {x: 2, y: 2, z: 2} #GoodGoalMulti

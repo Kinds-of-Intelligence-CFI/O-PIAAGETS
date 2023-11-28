@@ -40,4 +40,4 @@ arenas:
         - !Vector3 {x: 38.5, y: 0, z: 25} #GoodGoal
         rotations: [270] #GoodGoal
         sizes: #GoodGoal
-        - !Vector3 {x: 2, y: 2, z: 2} #Goal Size #GoodGoal Size
+        - !Vector3 {x: 2, y: 2, z: 2} #GoodGoal Size

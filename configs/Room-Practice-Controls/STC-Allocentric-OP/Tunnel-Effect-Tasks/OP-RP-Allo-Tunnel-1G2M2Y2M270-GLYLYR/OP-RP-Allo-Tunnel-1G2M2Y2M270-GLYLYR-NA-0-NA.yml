@@ -40,18 +40,18 @@ arenas:
         - !Vector3 {x: 38.5, y: 0, z: 25} #Powershelled GoodGoalMultiBounce 2
         rotations: [270] #Powershelled GoodGoalMultiBounce 2
         sizes: #Powershelled GoodGoalMultiBounce 2
-        - !Vector3 {x: 2, y: 2, z: 2} #Goal Size #GoodGoalBounce Size
+        - !Vector3 {x: 2, y: 2, z: 2} #GoodGoalBounce Size
       - !Item #GoodGoalMulti 1
         name: GoodGoalMultiBounce #GoodGoalMultiBounce 1
         positions: #GoodGoalMultiBounce 1
         - !Vector3 {x: 1.5, y: 0, z: 20} #GoodGoalMultiBounce 1
         rotations: [90] #GoodGoalMultiBounce 1
         sizes: #GoodGoalMultiBounce 1
-        - !Vector3 {x: 2, y: 2, z: 2} #Goal Size #GoodGoalMultiBounce 1
+        - !Vector3 {x: 2, y: 2, z: 2} #GoodGoalMultiBounce 1
       - !Item #Powershelled GoodGoalBounce 1
         name: GoodGoalBounce #Powershelled GoodGoalBounce 1
         positions: #Powershelled GoodGoalBounce 1
         - !Vector3 {x: 1.5, y: 0, z: 30} #Powershelled GoodGoalBounce 1
         rotations: [90] #Powershelled GoodGoalBounce 1
         sizes: #Powershelled GoodGoalBounce 1
-        - !Vector3 {x: 2, y: 2, z: 2} #Goal Size #Powershelled GoodGoalBounce 1
+        - !Vector3 {x: 2, y: 2, z: 2} #Powershelled GoodGoalBounce 1

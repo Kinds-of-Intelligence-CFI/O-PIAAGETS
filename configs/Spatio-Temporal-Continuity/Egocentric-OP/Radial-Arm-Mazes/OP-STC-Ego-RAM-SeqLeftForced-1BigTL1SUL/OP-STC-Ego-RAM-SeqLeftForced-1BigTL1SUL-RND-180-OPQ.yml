@@ -181,7 +181,7 @@ arenas:
       positions:
       - !Vector3 {x: 18.25, y: .3, z: 24.5} #top left arm.
       - !Vector3 {x: 21.75, y: .3, z: 24.5} #top right arm.
-      - !Vector3 - !Vector3 {x: 16.25, y: .3, z: 15.5} #bottom left arm.
+      - !Vector3 {x: 16.25, y: .3, z: 15.5} #bottom left arm.
       - !Vector3 {x: 15.25, y: .3, z: 21.25} #upper left arm.
       - !Vector3 {x: 24.75, y: .3, z: 21.25} #upper right arm.
       - !Vector3 {x: 15.25, y: .3, z: 18.75} #lower left arm.
